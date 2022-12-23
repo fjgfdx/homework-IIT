@@ -1,0 +1,136 @@
+<!--Указывает тип документа-->
+<!DOCTYPE html>
+<!--Начало документа-->
+<html>
+<!--Раздел служебной информации-->
+<head>
+<!--Сообщаем браузеру кодировку документа-->
+    <meta charset="utf-8">   
+<!--Заголовк страницы-->
+<title>ОСЁЛЬ</title>
+<!--Подключаем таблицу стилей CSS-->   
+<link rel="stylesheet" href="css/style.css">
+
+<!--Подключаем внешний js-скрипт-->    
+<script src="javascript\scripts.js"></script>
+<style>
+body{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(115, 255, 0);
+    font-size: 18px;
+}
+body{
+    margin-bottom: 100px;
+}
+p{
+    margin-left: 520px;
+}
+h3{
+    margin-left: 850px;
+}
+address{
+    margin-left: 520px;
+}
+header{
+    background-color: rgb(134, 110, 0);
+    padding-top: 15px;  
+}
+header{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+header{
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    background-image: url(../ПР3/images/header.jpg);
+    background-repeat: repeat;
+}
+
+</style>
+
+</head>
+<!--Тело документа-->
+<body>
+    <!--Шапка сайта-->
+    <header class="site_hider">
+        <!--Имя сайта делаем заголовком верхнего уровня-->
+        <h1 class="site_name">Осёл</h1>
+        <!--Другое содержимое шапки (логотип и др.)-->
+        <img src="images/images.jpg" alt="Главная страница" width="100"; height="100">
+        <!--Панель навигации по сайту-->
+        <nav class="site_nav">
+            <!--Ссылки на страницы сайта-->
+            <a href="index.html">На главную</a>
+            <a href="Eskel.html">Фиона</a>
+            <a href="Lambert.html">Дракониха</a>
+        </nav>
+    
+    </header>
+<!--Боковая панель-->
+<aside class="site_aside">
+    <div class="adv_block" id="adv1"></div>
+    
+    <div class="adv_block" id="adv2"></div>
+</aside>
+<!--Уникальный контент старницы-->
+<main>
+    <!--Делаем разметку для статьи о ведьмаках-->
+    <article>
+       <!--Собственная шапка-->
+    <header>
+        <!--Задаем собственный заголовк второго уровня-->
+        <h2>Содержание</h2>
+        <!--Внутренняя навигация по статье-->
+        <nav>
+            <ul>
+                <li><a href="#Geralt in the game">Осёл в игре</a></li><br/>
+                <li><a href="#Geralt in the series">Осёл в сериале</a></li><br/>
+                <li><a href="#Geralt from Rivia">Осёл с болота</a></li><br/>
+            </ul>
+        </nav>
+   </header>
+   <!--1-й раздел статьи-->
+   <section id="Geralt in the game">
+    <!--Задаем собственный заголовок 3-го уровня-->
+    <h3>Осёл в игре</h3>
+    <img src="images/Без названия (8).jpg" alt="Geralt in the game" style="margin-left: 500px"  width="900"; height="650">
+</section>
+<!--2-й раздел статьи-->
+<section id="Geralt in the series">
+    <!--Задаем собственный заголовок 3-го уровня-->
+    <h3>Осёл в сериале</h3>
+    <img src="images/Без названия (4).jpg" alt="Geralt in the series" style="margin-left: 650px"  width="700"; height="850">
+</section>
+<!--3-й раздел статьи-->
+<section id="Geralt from Rivia">
+    <!--Задаем собственный заголовок 3-го уровня-->
+    <h3>Осёл с болота</h3>
+    <audio src="music/shrek_09. Smash Mouth - All Star.mp3" controls autoplay style="margin-left: 850px" width="1000px"; height="20px">
+    </audio>
+    </section>
+     <!--«Подвал всей статьи»-->
+     <footer class="site_footer">
+        <p>
+            Дата публикации: <time datetime="2022-11-25 19:00"> 22 декабря</time>
+        </p>
+        <!--Информация об авторе-->
+        <address>
+            Автор: Маланчук Станислав Генадиевич<br/>
+        </address>
+    </footer>
+</article>
+</main>
+<!--«Подвал сайта»-->
+<footer class="site_footer">
+</footer>
+</body>
+</html>
